@@ -169,7 +169,7 @@ h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding: 30px 0 0 0;
+  padding: 15px 0 0 0;
 }
 
 .nav-menu * {
@@ -287,7 +287,7 @@ p{
 }
 
 #hero p {
-  margin: 0 0 20px 100px;
+  /*margin: 0 0 20px 100px;*/
   color: #fff;
   margin-bottom: 50px;
   font-size: 36px;
