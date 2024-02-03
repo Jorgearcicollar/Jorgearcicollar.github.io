@@ -353,7 +353,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: black;
 }
 
 .section-title {
@@ -813,6 +813,10 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials{
+  color: white;
+}
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -825,8 +829,9 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+
   margin: 0 auto;
 }
 
@@ -864,9 +869,10 @@ section {
 
 .testimonials .testimonial-item p {
   font-style: italic;
+  font-weight: bolder;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: #fff;
+  background: rgba(123, 99, 184);
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
@@ -1174,4 +1180,8 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+.blanco{
+  color:white !important;
 }
