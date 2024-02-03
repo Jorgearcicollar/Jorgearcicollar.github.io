@@ -34,6 +34,7 @@ navbar{
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+
 }
 
 a {
@@ -188,7 +189,7 @@ h6 {
   display: flex;
   align-items: center;
   color: #a8a9b4;
-  padding: 12px 15px;
+  padding: 6px 8px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
@@ -274,7 +275,7 @@ h6 {
 }
 
 #hero h1 {
-  /*margin: 0 0 20px 100px;*/
+  margin: 0 0 20px 190px;
   font-size: 70px;
   font-weight: 700;
   line-height: 56px;
@@ -294,11 +295,16 @@ p{
   font-family: "Poppins", sans-serif;
 }
 
+.ima{
+  margin: 0 0 20px 190px;
+}
+
 #hero p span {
  /* color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid rgba(123, 99, 184);*/
+  padding-bottom: 4px;
   text-align:center;
   border-bottom: 3px solid transparent;
   border-image: linear-gradient(0.25turn, rgba(84, 159, 176 ), rgba(84, 159, 176 ), rgba(123, 99, 184), rgba(123, 99, 184));
